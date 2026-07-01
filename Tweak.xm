@@ -448,14 +448,16 @@ static void MTHarvestAllNow(void) {
     %orig;
 }
 
-- (int)getBuildTime:(id)a {
-    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyInstantBuild, NO)) return 0;
+- (double)getBuildTime:(id)a {
+    // v21 审查修复: 真机方法返回 double, 原 int 声明会漏写 d0/r1 → instant_build 读到垃圾值不生效
+    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyInstantBuild, NO)) return 0.0;
     return %orig;
 }
 
 // 全局冷却归零 (Building 类共享)
-- (int)getCurLevelCoolTime {
-    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0;
+- (double)getCurLevelCoolTime {
+    // v21 审查修复: 冷却 getter 真机返回 double(兄弟 getLastCooldownTime/getLastGameCoolTime 本就是 double)
+    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0.0;
     return %orig;
 }
 
@@ -481,8 +483,9 @@ static void MTHarvestAllNow(void) {
     %orig;
 }
 
-- (unsigned int)getOutCoolTime {
-    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0;
+- (double)getOutCoolTime {
+    // v21 审查修复: 真机方法返回 double, 原 unsigned int 声明失效
+    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0.0;
     return %orig;
 }
 
@@ -842,8 +845,9 @@ static void MTHarvestAllNow(void) {
 
 %hook MCNpcActor
 
-- (int)getCurLevelCooltime:(id)a {
-    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0;
+- (double)getCurLevelCooltime:(id)a {
+    // v21 审查修复: 真机方法返回 double(带参), 原 int 声明失效
+    if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyNoCD, NO)) return 0.0;
     return %orig;
 }
 
@@ -1185,6 +1189,7 @@ static BOOL MTCallMyFuctiion(void) {
 //                  v12-A) 一键解锁所有物品(真写入 unlockedItemList_)
 //   遍历 GameData.shopItems 字典所有 key,逐个调 [WrapperManager unlockItem:]
 // ============================================================================
+#if 0  // v21 审查停用: unlockItem: 选择器未验证 + 破坏性写存档, 已由 all_unlock getter hook 取代
 static int MTUnlockAllItems(void) {
     id gd = MTGameData();
     if (!gd) gd = gGameDataRef;
@@ -1220,6 +1225,7 @@ static int MTUnlockAllItems(void) {
     if ([gd respondsToSelector:save]) ((void(*)(id,SEL))objc_msgSend)(gd, save);
     return count;
 }
+#endif  // MTUnlockAllItems 停用
 
 
 // ============================================================================
@@ -1467,19 +1473,30 @@ static void MTSummonActivityLayer(NSString *className) {
     if (MT_BOOL(kKeyEnabled, YES) && MT_BOOL(kKeyMagicBypass, NO)) {
         // 不走原密码比对,直接调成功回调
         id me = self;
+        BOOL fired = NO;
         SEL delSel = NSSelectorFromString(@"magicNumberDelegate");
         if ([me respondsToSelector:delSel]) {
             id delegate = ((id (*)(id, SEL))objc_msgSend)(me, delSel);
-            SEL finishSel = NSSelectorFromString(@"onMagicNumberFinished");
-            if (delegate && [delegate respondsToSelector:finishSel]) {
-                ((void (*)(id, SEL))objc_msgSend)(delegate, finishSel);
+            // v21 审查修复: onMagicNumberFinished 未在逆向 dump 确认, 探测多个候选回调名
+            const char *cands[] = { "onMagicNumberFinished", "magicNumberFinished", "onMagicNumberCorrect" };
+            for (int i = 0; i < 3; i++) {
+                SEL cb = sel_registerName(cands[i]);
+                if (delegate && [delegate respondsToSelector:cb]) {
+                    ((void (*)(id, SEL))objc_msgSend)(delegate, cb);
+                    fired = YES;
+                    break;
+                }
             }
         }
-        SEL closeSel = NSSelectorFromString(@"doClose");
-        if ([me respondsToSelector:closeSel]) {
-            ((void (*)(id, SEL))objc_msgSend)(me, closeSel);
+        if (fired) {
+            SEL closeSel = NSSelectorFromString(@"doClose");
+            if ([me respondsToSelector:closeSel]) {
+                ((void (*)(id, SEL))objc_msgSend)(me, closeSel);
+            }
+            return;
         }
-        return;
+        // v21 审查修复: 无候选回调命中 → 不吞点击, 回落 %orig 走原生密码流程,
+        // 避免「既没验证也没绕过、只是把对话框关掉」的静默失效
     }
     %orig;
 }
@@ -2124,6 +2141,9 @@ static void MTApplyScrollViewFix(UIScrollView *sv) {
     [gScroll addSubview:lbl];
 
     UISwitch *sw = [[UISwitch alloc] initWithFrame:CGRectZero];
+    // v21 审查修复: 首次显示时把默认值落盘, 使开关显示与 hook 读取的 MT_BOOL(key, NO) 一致
+    // (原来 defaultOn:YES 的「永不枯萎/关反作弊」只是显示开、没写进 plist → hook 读到 NO 而失效)
+    if (![MTSettings() objectForKey:k]) MT_SET(k, @(def));
     sw.on = MT_BOOL(k, def);
     // UISwitch 的 frame 大小固定,只能调位置;放右对齐
     CGSize swSz = sw.bounds.size;
@@ -2903,7 +2923,8 @@ static UIView *gDevPanelCard = nil;
     [gScroll addSubview:resetAchBtn];
     *y += 36;
 
-    // 一键真解锁所有物品按钮(全宽)
+    // v21 审查停用: 一键真解锁(unlockItem: 未验证 + 破坏性写档), 改用「全物品解锁」开关
+#if 0
     UIButton *unlockBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     unlockBtn.frame = CGRectMake(cx, *y, cw, 32);
     [unlockBtn setTitle:@"🔓 一键真解锁所有商店物品(写存档)" forState:UIControlStateNormal];
@@ -2914,6 +2935,7 @@ static UIView *gDevPanelCard = nil;
     [unlockBtn addTarget:self action:@selector(onUnlockAllItems) forControlEvents:UIControlEventTouchUpInside];
     [gScroll addSubview:unlockBtn];
     *y += 38;
+#endif
 
     // v15: testAnimation 按钮(MainMenu 上的另一个测试方法,反汇编显示是 0.5x 缩放动画)
     UIButton *testAnimBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -3069,7 +3091,8 @@ static UIView *gDevPanelCard = nil;
     }
 }
 
-// 一键真解锁所有商店物品(写入 unlockedItemList_)
+// 一键真解锁所有商店物品 —— v21 审查停用(unlockItem: 未验证 + 破坏性), 改用「全物品解锁」开关
+#if 0
 - (void)onUnlockAllItems {
     int n = MTUnlockAllItems();
     if (n > 0) {
@@ -3082,6 +3105,7 @@ static UIView *gDevPanelCard = nil;
         [self showToast:[NSString stringWithFormat:@"❌ 失败 (code %d)", n]];
     }
 }
+#endif
 
 // 启动指定 ID 的 mini 游戏
 - (void)onLaunchMiniGame:(UIButton *)b {
