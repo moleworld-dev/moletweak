@@ -1,0 +1,310 @@
+        name           0x9a3855 EasterEggMainLayer
+        baseMethods    0xa0827c
+            entsize 12
+            count   23
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x2000cd
+            name    0x891c2c showLayerWithTarget:selector:
+            types   0x9ad456 v16@0:4@8:12
+            imp     0x2001f1
+            name    0x8a77ca displayUI
+            types   0x9aca51 v8@0:4
+            imp     0x2002c9
+            name    0x8b090f gotoGetRewardWithId:todayRewardId:
+            types   0x9ad099 v16@0:4i8i12
+            imp     0x2015a1
+            name    0x8b0932 showNewFindEasterEgg
+            types   0x9aca51 v8@0:4
+            imp     0x201d81
+            name    0x8b0954 lightOpenSecretButton
+            types   0x9aca51 v8@0:4
+            imp     0x201f35
+            name    0x8b0988 rewardStars0BlinkStart
+            types   0x9aca51 v8@0:4
+            imp     0x202029
+            name    0x8b099f rewardStars1BlinkStart
+            types   0x9aca51 v8@0:4
+            imp     0x202129
+            name    0x8b09b6 rewardStars2BlinkStart
+            types   0x9aca51 v8@0:4
+            imp     0x20222d
+            name    0x8b096a eggsStar0BlinkStartWithIndex:
+            types   0x9acaff v12@0:4@8
+            imp     0x202331
+            name    0x8b09cd eggsStar1BlinkStartWithIndex:
+            types   0x9acaff v12@0:4@8
+            imp     0x202461
+            name    0x8b09fe setRewardVisibleNo
+            types   0x9aca51 v8@0:4
+            imp     0x202591
+            name    0x8b08d5 onBuyButtonClick:
+            types   0x9acaff v12@0:4@8
+            imp     0x202799
+            name    0x8b09eb showGetRewardLayer
+            types   0x9aca51 v8@0:4
+            imp     0x2029b5
+            name    0x89dec9 showActionLayerArrow:
+            types   0x9ad01c v12@0:4c8
+            imp     0x202a79
+            name    0x8b0a11 onSureBuyEasterEgg
+            types   0x9aca51 v8@0:4
+            imp     0x202ad5
+            name    0x89deba closeMainLayer
+            types   0x9aca51 v8@0:4
+            imp     0x202da1
+            name    0x8ad313 translateToDateLabelWithNumber:
+            types   0x9ada98 @12@0:4L8
+            imp     0x202e05
+            name    0x893034 showNetWorkError
+            types   0x9aca51 v8@0:4
+            imp     0x202eb5
+            name    0x893b0d checkNetWork
+            types   0x9aca58 c8@0:4
+            imp     0x202f4d
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x202fc1
+            name    0x88f76b onStateChangedTo:
+            types   0x9acab1 v12@0:4i8
+            imp     0x203039
+            name    0x88fbfb onCommandReceived:
+            types   0x9acaff v12@0:4@8
+            imp     0x203071
+        baseProtocols  0xa08248
+            count    1
+            list[0]  0xb3b374
+                isa       0x0
+                name      0x9a3868 EasterEggActivityResponder
+                protocols 0x0
+                instanceMethods 0xa08220
+                    entsize 12
+                    count   2
+                    name    0x88f76b onStateChangedTo:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fbfb onCommandReceived:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0xa08398
+            entsize   20
+            count     18
+            offset    0xb05aac 236
+            name      0x8901b0 target_
+            type      0x9ad48b @
+            alignment 2
+            size      4
+            offset    0xb05ab0 240
+            name      0x8901b8 selector_
+            type      0x9ad48d :
+            alignment 2
+            size      4
+            offset    0xb05ab4 244
+            name      0x8a0c0a back_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05ac0 248
+            name      0x8b0a24 eggsSprites
+            type      0x9b063d [6@"CCSprite"]
+            alignment 2
+            size      24
+            offset    0xb05ac4 272
+            name      0x8b0a30 eggsStars
+            type      0x9b064c [12@"CCSprite"]
+            alignment 2
+            size      48
+            offset    0xb05ac8 320
+            name      0x8b0a3a buyButtons
+            type      0x9b02c9 [7@"CCMenuItemSpriteIndependent"]
+            alignment 2
+            size      28
+            offset    0xb05ad8 348
+            name      0x8b0a45 rewardSprite
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05ae4 352
+            name      0x8b0a52 rewardSpriteCopy
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05ab8 356
+            name      0x8b0a63 rewardBg
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05adc 360
+            name      0x8b0a6c hugRabbitMask
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05aa4 364
+            name      0x8b0a7a btnTag
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb05abc 368
+            name      0x8b0a81 rewardStars
+            type      0x9af6fb [3@"CCSprite"]
+            alignment 2
+            size      12
+            offset    0xb05acc 380
+            name      0x8b0a8d activityTipSpr_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05ad0 384
+            name      0x8b0a9d tipDateLabel_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb05ad4 388
+            name      0x8b0aab easterEggGetRewardLayer_
+            type      0x9b065c @"EasterEggGetRewardLayer"
+            alignment 2
+            size      4
+            offset    0xb05ae0 392
+            name      0x89df35 middleBigEggSpr_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb05ae8 396
+            name      0x8b0ac4 rewardObject
+            type      0x9ad5da @"ObjectData"
+            alignment 2
+            size      4
+            offset    0xb05aa8 400
+            name      0x8b0ad1 isControlOpenSecretButton_
+            type      0x9acabb c
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+        name           0x9a3855 EasterEggMainLayer
+        baseMethods    0x0
+        baseProtocols  0xa08248
+            count    1
+            list[0]  0xb3b374
+                isa       0x0
+                name      0x9a3868 EasterEggActivityResponder
+                protocols 0x0
+                instanceMethods 0xa08220
+                    entsize 12
+                    count   2
+                    name    0x88f76b onStateChangedTo:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fbfb onCommandReceived:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d3210 0xaf2d00
+    isa        0xaf2d14
+    superclass 0xaf5258
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0xa086a0
+        flags          0x10
+        instanceStart  296
+        instanceSize   310
+        ivarLayout     0x0
+        name           0x9a3883 AdViewForMoleCart
+        baseMethods    0xa08558
+            entsize 12
+            count   16
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x203125
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x20328d
+            name    0x88ded6 showWithTarget:selector:
+            types   0x9ad456 v16@0:4@8:12
+            imp     0x203305
+            name    0x88eb6d detech
+            types   0x9aca51 v8@0:4
+            imp     0x20363d
+            name    0x8acda0 onCloseButtonselected
+            types   0x9aca51 v8@0:4
+            imp     0x2036c1
+            name    0x8b0b65 onAdSelected
+            types   0x9aca51 v8@0:4
+            imp     0x203709
+            name    0x8b0853 onTimeOutController
+            types   0x9aca51 v8@0:4
+            imp     0x203775
+            name    0x8b0867 onImageRecieved
+            types   0x9aca51 v8@0:4
+            imp     0x203869
+            name    0x8b0b4d asynchronousHttpAdImage
+            types   0x9aca51 v8@0:4
+            imp     0x203941
+            name    0x88f844 getMoleCartAdImageFromServer
+            types   0x9aca51 v8@0:4
+            imp     0x203af9
+            name    0x88a2a1 registerWithTouchDispatcher
+            types   0x9aca51 v8@0:4
+            imp     0x203ca5
+            name    0x88a2bd isAccelerometerEnabled
+            types   0x9aca58 c8@0:4
+            imp     0x203ce9
+            name    0x88a2d4 ccTouchBegan:withEvent:
+            types   0x9aca5f c16@0:4@8@12
+            imp     0x203cfd
+            name    0x88a302 ccTouchEnded:withEvent:
+            types   0x9aca84 v16@0:4@8@12
+            imp     0x203d01
+            name    0x8b0b72 delegateAdViewForMoleCar
+            types   0x9aca4a @8@0:4
+            imp     0x2040fd
+            name    0x8b0b8b setDelegateAdViewForMoleCar:
+            types   0x9acaff v12@0:4@8
+            imp     0x20410d
+        baseProtocols  0x0
+        ivars          0xa08620
+            entsize   20
+            count     5
+            offset    0xb05aec 296
+            name      0x8b0ba8 delegateAdViewForMoleCart_
+            type      0x9ad48b @
+            alignment 2
+            size      4
+            offset    0xb05af0 300
+            name      0x8adcc5 queue
+            type      0x9b0139 @"NSOperationQueue"
+            alignment 2
+            size      4
+            offset    0xb05af4 304
+            name      0x8b08ac imageData_
+            type      0x9ada23 @"NSMutableData"
+            alignment 2
+            size      4
+            offset    0xb05af8 308
+            name      0x8b08b7 requestFinish_
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb05afc 309
+            name      0x8b08c6 imageRecieved_
+            type      0x9acabb c
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0xa08690
+            entsize    8
+            count      1
+            name       0x9363d2 delegateAdViewForMoleCar
+            attributes 0x9363eb T@,&,N,VdelegateAdViewForMoleCart_
+Meta Class

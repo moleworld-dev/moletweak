@@ -1,0 +1,457 @@
+        name           0x9a2feb TestLayer
+        baseMethods    0x9f6048
+            entsize 12
+            count   34
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x1444a1
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x145d91
+            name    0x8a92e8 getXPChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x145ded
+            name    0x8a92f9 getGoldChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x145e91
+            name    0x8a930c getVipGoldChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x145e99
+            name    0x8a9322 getVipValueChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x145e9d
+            name    0x8a9339 getTimeChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x145ea1
+            name    0x88ddd6 updateUI
+            types   0x9aca51 v8@0:4
+            imp     0x145ea5
+            name    0x88eb51 updateTime
+            types   0x9aca51 v8@0:4
+            imp     0x146205
+            name    0x8a9151 onButtonXPPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x1465f9
+            name    0x8a934c onButtonXPMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146669
+            name    0x8a9161 onButtonGoldPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x1466fd
+            name    0x8a9173 onButtonGoldMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x14676d
+            name    0x8a9186 onButtonVipGoldPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146849
+            name    0x8a919b onButtonVipGoldMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x1468b9
+            name    0x8a922c onButtonVipValuePlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x1469d1
+            name    0x8a9242 onButtonVipValueMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146aa9
+            name    0x8a91b1 onButtonTimePlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146b0d
+            name    0x8a91c3 onButtonTimeMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146b4d
+            name    0x8a91d6 onButtonQuestPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146b91
+            name    0x8a91e9 onButtonQuestMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146c05
+            name    0x8a91fd onButtonTimeQuestPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146c75
+            name    0x8a9214 onButtonTimeQuestMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146ce9
+            name    0x8a90d4 onButtonTimeTouched:
+            types   0x9acaff v12@0:4@8
+            imp     0x146d19
+            name    0x8a9108 onButtonQuestTouched:
+            types   0x9acaff v12@0:4@8
+            imp     0x146d31
+            name    0x8a911e onButtonTimeQuestTouched:
+            types   0x9acaff v12@0:4@8
+            imp     0x146d75
+            name    0x8a9259 onButtonVipQuestPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146dd5
+            name    0x8a926f onButtonVipQuestMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146e49
+            name    0x8a9138 onButtonVipQuestTouched:
+            types   0x9acaff v12@0:4@8
+            imp     0x146e79
+            name    0x8a9286 onButtonFoodPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146ed9
+            name    0x8a9298 onButtonFoodMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146f35
+            name    0x8a92ab onButtonTicketsPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146f91
+            name    0x8a92c0 onButtonTicketsMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x146fed
+            name    0x8a92d6 onRecieveMessage:
+            types   0x9acaff v12@0:4@8
+            imp     0x147049
+        baseProtocols  0x0
+        ivars          0x9f61e8
+            entsize   20
+            count     16
+            offset    0xb04af4 236
+            name      0x8a935d labelxp
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04af8 240
+            name      0x8a9365 labelgold
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04afc 244
+            name      0x8a936f labelvipgold
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b04 248
+            name      0x8a937c labelquestid
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b00 252
+            name      0x8a9389 labeltime
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b08 256
+            name      0x8a9393 labeltimequestid
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b10 260
+            name      0x8a93a4 labelvipquestid
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b0c 264
+            name      0x8a93b4 labelVipValue
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b1c 268
+            name      0x8a93c2 labelFoodPrints
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04b18 272
+            name      0x8a93d2 labelRewardTickets
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb04ae0 276
+            name      0x8a93e5 time_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04ae4 280
+            name      0x8a93eb questId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04ae8 284
+            name      0x8a93f4 timequestId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04aec 288
+            name      0x8a9401 vipquestId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04af0 292
+            name      0x8a940d foodsNum_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b14 296
+            name      0x88a39f rewardTickets_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+        name           0x9a2feb TestLayer
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d3018 0xaf1950
+    isa        0xaf1964
+    superclass 0xaf5488
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0x9f6758
+        flags          0x10
+        instanceStart  236
+        instanceSize   348
+        ivarLayout     0x0
+        name           0x9a2ff5 Fruit
+        baseMethods    0x9f6394
+            entsize 12
+            count   35
+            name    0x8a8684 initWithType:type:parentNode:initPos:
+            types   0x9af9c4 @28@0:4i8i12@16{CGPoint=ff}20
+            imp     0x147051
+            name    0x8a9417 initWithType:type:parentNode:initPos:maxTime:minTime:
+            types   0x9af9e2 @36@0:4i8i12@16{CGPoint=ff}20i28i32
+            imp     0x14708d
+            name    0x88df43 destroy
+            types   0x9aca51 v8@0:4
+            imp     0x147421
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x1474c5
+            name    0x8a9571 setMaxTime:andMinTime:
+            types   0x9ad099 v16@0:4i8i12
+            imp     0x147505
+            name    0x8a9462 genarateVelocity:
+            types   0x9ae12b {CGPoint=ff}12@0:4i8
+            imp     0x147529
+            name    0x8a9483 changeGravityAndDir
+            types   0x9aca51 v8@0:4
+            imp     0x147755
+            name    0x890b75 update:
+            types   0x9ad40f v12@0:4f8
+            imp     0x147785
+            name    0x8a9588 playFruitStage1:
+            types   0x9acab1 v12@0:4i8
+            imp     0x147a99
+            name    0x8a9537 playFruitStage3
+            types   0x9aca51 v8@0:4
+            imp     0x147b35
+            name    0x8a94b2 playFruitStage3:
+            types   0x9acab1 v12@0:4i8
+            imp     0x147b59
+            name    0x8a94c3 initBombStage1
+            types   0x9aca51 v8@0:4
+            imp     0x14806d
+            name    0x8a94d2 initBombStage2
+            types   0x9aca51 v8@0:4
+            imp     0x1481c1
+            name    0x8a9474 playBombStage1
+            types   0x9aca51 v8@0:4
+            imp     0x1482d9
+            name    0x8a94e1 playBombStage2:
+            types   0x9ae23b v12@0:4:8
+            imp     0x1483b1
+            name    0x8a9547 playFruitStage2:callBack:
+            types   0x9afa06 v16@0:4i8:12
+            imp     0x148545
+            name    0x8a9518 getColorByFruitType:
+            types   0x9afa13 {_ccColor3B=CCC}12@0:4i8
+            imp     0x1486f1
+            name    0x8a94f1 playFruitsEffect:
+            types   0x9acab1 v12@0:4i8
+            imp     0x148739
+            name    0x8a952d effectDie
+            types   0x9aca51 v8@0:4
+            imp     0x14892d
+            name    0x8a94a0 getPreNameByType:
+            types   0x9ad117 @12@0:4i8
+            imp     0x148971
+            name    0x8a944d getStage1NameByType:
+            types   0x9ad117 @12@0:4i8
+            imp     0x1489a1
+            name    0x8a9503 initAnimationStage2:
+            types   0x9ad117 @12@0:4i8
+            imp     0x1489d1
+            name    0x89cf31 checkAreaTouched:
+            types   0x9ae205 B16@0:4{CGPoint=ff}8
+            imp     0x148b3d
+            name    0x8a86c2 setCallBack:select:hitFruit:
+            types   0x9afa2c v20@0:4@8:12:16
+            imp     0x148f09
+            name    0x8a9497 fruitDie
+            types   0x9aca51 v8@0:4
+            imp     0x148f39
+            name    0x8a85db curStage
+            types   0x9ad015 i8@0:4
+            imp     0x149085
+            name    0x8a9599 setCurStage:
+            types   0x9acab1 v12@0:4i8
+            imp     0x149095
+            name    0x8a618e result
+            types   0x9ad015 i8@0:4
+            imp     0x1490a5
+            name    0x8a6195 setResult:
+            types   0x9acab1 v12@0:4i8
+            imp     0x1490b5
+            name    0x8a86ff fruitType
+            types   0x9ad015 i8@0:4
+            imp     0x1490c5
+            name    0x8a95a6 setFruitType:
+            types   0x9acab1 v12@0:4i8
+            imp     0x1490d5
+            name    0x897547 m_sprite
+            types   0x9aca4a @8@0:4
+            imp     0x1490e5
+            name    0x89cfcb setM_sprite:
+            types   0x9acaff v12@0:4@8
+            imp     0x1490f5
+            name    0x8a87f5 m_anotherSprite
+            types   0x9aca4a @8@0:4
+            imp     0x149105
+            name    0x8a95b4 setM_anotherSprite:
+            types   0x9acaff v12@0:4@8
+            imp     0x149115
+        baseProtocols  0x0
+        ivars          0x9f6540
+            entsize   20
+            count     24
+            offset    0xb04b20 236
+            name      0x89d29c m_id
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b38 240
+            name      0x897547 m_sprite
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb04b34 244
+            name      0x8a87f5 m_anotherSprite
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb04b30 248
+            name      0x8a95c8 m_effectSprite
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb04b24 252
+            name      0x8a88c0 m_curStage
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b28 256
+            name      0x8a95d7 m_fruitType
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b54 260
+            name      0x8a95e3 m_callBackTarget
+            type      0x9ad48b @
+            alignment 2
+            size      4
+            offset    0xb04b58 264
+            name      0x8a95f4 m_selector
+            type      0x9ad48d :
+            alignment 2
+            size      4
+            offset    0xb04b6c 268
+            name      0x8a95ff m_selHitFruit
+            type      0x9ad48d :
+            alignment 2
+            size      4
+            offset    0xb04b5c 272
+            name      0x8a960d m_result
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b70 276
+            name      0x8a9616 m_speedUp
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b74 280
+            name      0x8a9620 m_speedDown
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b68 284
+            name      0x8a962c m_angle
+            type      0x9acac3 f
+            alignment 2
+            size      4
+            offset    0xb04b78 288
+            name      0x8a9634 m_endPoint
+            type      0x9acac5 {CGPoint="x"f"y"f}
+            alignment 2
+            size      8
+            offset    0xb04b2c 296
+            name      0x8a963f m_parent
+            type      0x9ad49e @"CCNode"
+            alignment 2
+            size      4
+            offset    0xb04b4c 300
+            name      0x8a9648 m_velocity
+            type      0x9acac5 {CGPoint="x"f"y"f}
+            alignment 2
+            size      8
+            offset    0xb04b7c 308
+            name      0x8a9653 m_initPos
+            type      0x9acac5 {CGPoint="x"f"y"f}
+            alignment 2
+            size      8
+            offset    0xb04b48 316
+            name      0x8a965d m_gravity
+            type      0x9acac5 {CGPoint="x"f"y"f}
+            alignment 2
+            size      8
+            offset    0xb04b60 324
+            name      0x8a9667 m_consumeTime
+            type      0x9acac3 f
+            alignment 2
+            size      4
+            offset    0xb04b44 328
+            name      0x8a9675 m_curDir
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b64 332
+            name      0x8a967e m_cuttedDir
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b3c 336
+            name      0x8a968a m_maxConsumeTime
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b40 340
+            name      0x8a969b m_minConsumeTime
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb04b50 344
+            name      0x8a96ac openAlId
+            type      0x9acac1 i
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9f6728
+            entsize    8
+            count      5
+            name       0x931896 curStage
+            attributes 0x93189f Ti,N,Vm_curStage
+            name       0x9554ea result
+            attributes 0x9318b0 Ti,N,Vm_result
+            name       0x9318bf fruitType
+            attributes 0x9318c9 Ti,N,Vm_fruitType
+            name       0x92b6f4 m_sprite
+            attributes 0x92b6fd T@"CCSprite",N,Vm_sprite
+            name       0x9318db m_anotherSprite
+            attributes 0x9318eb T@"CCSprite",N,Vm_anotherSprite
+Meta Class

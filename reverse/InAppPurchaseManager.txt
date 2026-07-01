@@ -1,0 +1,1052 @@
+        name           0x9a2d1b InAppPurchaseManager
+        baseMethods    0x9f1600
+            entsize 12
+            count   64
+            name    0x8a5988 initWithIds:
+            types   0x9acfe9 @12@0:4@8
+            imp     0x115a41
+            name    0x8a607f checkNeedsRestore
+            types   0x9aca51 v8@0:4
+            imp     0x115ba1
+            name    0x88bdd7 alertView:didDismissWithButtonIndex:
+            types   0x9acbe4 v16@0:4@8i12
+            imp     0x115c39
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x115c75
+            name    0x8a59a2 loadStore
+            types   0x9aca51 v8@0:4
+            imp     0x115d05
+            name    0x8a59ac restore
+            types   0x9aca51 v8@0:4
+            imp     0x115db9
+            name    0x8a5fa5 paymentQueueRestoreCompletedTransactionsFinished:
+            types   0x9acaff v12@0:4@8
+            imp     0x115e01
+            name    0x8a5f6b paymentQueue:restoreCompletedTransactionsFailedWithError:
+            types   0x9aca84 v16@0:4@8@12
+            imp     0x115e79
+            name    0x89f6d4 updateProgress:
+            types   0x9acaff v12@0:4@8
+            imp     0x115f71
+            name    0x8a6091 getProgress:
+            types   0x9af110 f12@0:4@8
+            imp     0x116109
+            name    0x8a5ab4 showIndicator
+            types   0x9aca51 v8@0:4
+            imp     0x11614d
+            name    0x8a5aa6 hideIndicator
+            types   0x9aca51 v8@0:4
+            imp     0x116151
+            name    0x88b0fb HideIndicator
+            types   0x9aca51 v8@0:4
+            imp     0x11620d
+            name    0x8a609e purchaseWithCallback:selector:productId:
+            types   0x9ae6ca v20@0:4@8:12@16
+            imp     0x116225
+            name    0x88c425 funCallback
+            types   0x9aca51 v8@0:4
+            imp     0x116565
+            name    0x8a5ac2 purchase:
+            types   0x9acaff v12@0:4@8
+            imp     0x1165a1
+            name    0x8a5d90 validateReceipt:
+            types   0x9aceb2 c12@0:4@8
+            imp     0x1165f5
+            name    0x8a60c7 hasAlreadyPurchased:
+            types   0x9aceb2 c12@0:4@8
+            imp     0x116679
+            name    0x8a60dc canPurchase:
+            types   0x9aceb2 c12@0:4@8
+            imp     0x11667d
+            name    0x8a5e15 recordTransaction:
+            types   0x9acaff v12@0:4@8
+            imp     0x1166c1
+            name    0x8a60e9 clearAlreadyPurchased
+            types   0x9aca51 v8@0:4
+            imp     0x116795
+            name    0x8a5e28 provideContent:
+            types   0x9acaff v12@0:4@8
+            imp     0x1167e9
+            name    0x8972b9 checkNetworkConnect
+            types   0x9ad3fe B8@0:4
+            imp     0x116859
+            name    0x8a5d6c productPurchased
+            types   0x9aca51 v8@0:4
+            imp     0x1168bd
+            name    0x8a5cc7 checkIsCurrentUserId
+            types   0x9ad3fe B8@0:4
+            imp     0x1169d1
+            name    0x8a5cdc checkIsExistPurchaser:
+            types   0x9ad12e B12@0:4@8
+            imp     0x116a35
+            name    0x8a5e6d removeFailInAppPurchaserInfo:
+            types   0x9ad12e B12@0:4@8
+            imp     0x116bb9
+            name    0x8a5cad removeInAppPurchaserInfo:
+            types   0x9ad12e B12@0:4@8
+            imp     0x116da9
+            name    0x8a5c86 addAlreadyPurchaserInfo:vipGold:price:
+            types   0x9af11a B20@0:4@8i12f16
+            imp     0x116f89
+            name    0x8a5d0d sendPurchaseInfo2Server:
+            types   0x9acab1 v12@0:4i8
+            imp     0x117361
+            name    0x8a60ff checkRightInJailBroken:
+            types   0x9ad12e B12@0:4@8
+            imp     0x1174c9
+            name    0x88ed92 onCheckIAPTimeoutForJailBrokenUser
+            types   0x9aca51 v8@0:4
+            imp     0x1176d9
+            name    0x88f19e onCheckIAPFailedForJailBrokenUser
+            types   0x9aca51 v8@0:4
+            imp     0x1178dd
+            name    0x88f131 onPurchaseSuccessful
+            types   0x9aca51 v8@0:4
+            imp     0x117a71
+            name    0x8a5e38 finishTransaction:wasSuccessful:
+            types   0x9ad429 v16@0:4@8c12
+            imp     0x1183fd
+            name    0x8a5d26 saveRecieptToLocal:
+            types   0x9acaff v12@0:4@8
+            imp     0x118901
+            name    0x8a5cf3 sendSuccessTransa2Server:
+            types   0x9acaff v12@0:4@8
+            imp     0x118a91
+            name    0x88c414 purchaseCleanup:
+            types   0x9acaff v12@0:4@8
+            imp     0x118aa9
+            name    0x88b109 transactionExist
+            types   0x9ad3fe B8@0:4
+            imp     0x118aad
+            name    0x8a6117 debugTransactionInfo:
+            types   0x9acaff v12@0:4@8
+            imp     0x118af5
+            name    0x8a5a38 paymentQueue:updatedTransactions:
+            types   0x9aca84 v16@0:4@8@12
+            imp     0x118af9
+            name    0x8a612d removeFailTransaction:
+            types   0x9acaff v12@0:4@8
+            imp     0x118d31
+            name    0x8a5dd9 completeTransaction:
+            types   0x9acaff v12@0:4@8
+            imp     0x118d49
+            name    0x8a5e01 restoreTransaction:
+            types   0x9acaff v12@0:4@8
+            imp     0x118db1
+            name    0x8a5dee failedTransaction:
+            types   0x9acaff v12@0:4@8
+            imp     0x118e35
+            name    0x8a6144 requestProducts
+            types   0x9aca51 v8@0:4
+            imp     0x118fb1
+            name    0x8a59ea requestProductData:
+            types   0x9acaff v12@0:4@8
+            imp     0x118fe9
+            name    0x8a5ef9 productsRequest:didReceiveResponse:
+            types   0x9aca84 v16@0:4@8@12
+            imp     0x11908d
+            name    0x8a5a5a notifyProductsFetched
+            types   0x9aca51 v8@0:4
+            imp     0x119211
+            name    0x8a6154 getProcuctTitle:
+            types   0x9acfe9 @12@0:4@8
+            imp     0x119279
+            name    0x8a6165 getProcuctPrice:
+            types   0x9acfe9 @12@0:4@8
+            imp     0x1192b9
+            name    0x8a6176 getProcuctDes:
+            types   0x9acfe9 @12@0:4@8
+            imp     0x1192f9
+            name    0x8a5ea7 products
+            types   0x9aca4a @8@0:4
+            imp     0x119339
+            name    0x8a5eb0 setProducts:
+            types   0x9acaff v12@0:4@8
+            imp     0x119349
+            name    0x8a6185 progress
+            types   0x9aca4a @8@0:4
+            imp     0x11936d
+            name    0x8a5995 setProgress:
+            types   0x9acaff v12@0:4@8
+            imp     0x11937d
+            name    0x8a618e result
+            types   0x9ad3fe B8@0:4
+            imp     0x1193a1
+            name    0x8a6195 setResult:
+            types   0x9ad474 v12@0:4B8
+            imp     0x1193b9
+            name    0x8a61a0 transactionInfo
+            types   0x9aca4a @8@0:4
+            imp     0x1193d1
+            name    0x8a61b0 setTransactionInfo:
+            types   0x9acaff v12@0:4@8
+            imp     0x1193e1
+            name    0x88b0ee isInPurchase
+            types   0x9ad3fe B8@0:4
+            imp     0x119405
+            name    0x8a61c4 setIsInPurchase:
+            types   0x9ad474 v12@0:4B8
+            imp     0x119415
+            name    0x8a61d5 isDisablePurchase
+            types   0x9ad3fe B8@0:4
+            imp     0x119425
+            name    0x8a61e7 setIsDisablePurchase:
+            types   0x9ad474 v12@0:4B8
+            imp     0x119435
+        baseProtocols  0x9f15c4
+            count    3
+            list[0]  0xb3af50
+                isa       0x0
+                name      0x9a2d30 SKProductsRequestDelegate
+                protocols 0x9f14a8
+                    count    1
+                    list[0]  0xb3af24
+                        isa       0x0
+                        name      0x9a2d4a SKRequestDelegate
+                        protocols 0x9f1470
+                            count    1
+                            list[0]  0xb38c60
+                                isa       0x0
+                                name      0x9a2331 NSObject
+                                protocols 0x0
+                                instanceMethods 0x9d55f4
+                                    entsize 12
+                                    count   19
+                                    name    0x88bb6b isEqual:
+                                    types   0x9aceb2 c12@0:4@8
+                                    imp     0x0
+                                    name    0x88bb74 hash
+                                    types   0x9acebc I8@0:4
+                                    imp     0x0
+                                    name    0x88bb79 superclass
+                                    types   0x9acec3 #8@0:4
+                                    imp     0x0
+                                    name    0x88aca1 class
+                                    types   0x9acec3 #8@0:4
+                                    imp     0x0
+                                    name    0x88bb84 self
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88bb89 zone
+                                    types   0x9aceca ^{_NSZone=}8@0:4
+                                    imp     0x0
+                                    name    0x88aae3 performSelector:
+                                    types   0x9acedb @12@0:4:8
+                                    imp     0x0
+                                    name    0x88bb8e performSelector:withObject:
+                                    types   0x9acee5 @16@0:4:8@12
+                                    imp     0x0
+                                    name    0x88bbaa performSelector:withObject:withObject:
+                                    types   0x9acef2 @20@0:4:8@12@16
+                                    imp     0x0
+                                    name    0x88bbd1 isProxy
+                                    types   0x9aca58 c8@0:4
+                                    imp     0x0
+                                    name    0x88aca7 isKindOfClass:
+                                    types   0x9acf02 c12@0:4#8
+                                    imp     0x0
+                                    name    0x88bbd9 isMemberOfClass:
+                                    types   0x9acf02 c12@0:4#8
+                                    imp     0x0
+                                    name    0x88bbea conformsToProtocol:
+                                    types   0x9aceb2 c12@0:4@8
+                                    imp     0x0
+                                    name    0x88b60b respondsToSelector:
+                                    types   0x9acf20 c12@0:4:8
+                                    imp     0x0
+                                    name    0x88bbfe retain
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88a420 release
+                                    types   0x9acf2a Vv8@0:4
+                                    imp     0x0
+                                    name    0x88b4dd autorelease
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88bc05 retainCount
+                                    types   0x9acebc I8@0:4
+                                    imp     0x0
+                                    name    0x88b525 description
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                classMethods 0x0
+                                optionalInstanceMethods 0x9d56e0
+                                    entsize 12
+                                    count   1
+                                    name    0x88bc11 debugDescription
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                optionalClassMethods 0x0
+                                instanceProperties 0x0
+                        instanceMethods 0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9f147c
+                            entsize 12
+                            count   2
+                            name    0x8a5f1d requestDidFinish:
+                            types   0x9acaff v12@0:4@8
+                            imp     0x0
+                            name    0x8a5f2f request:didFailWithError:
+                            types   0x9aca84 v16@0:4@8@12
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9f14b4
+                    entsize 12
+                    count   1
+                    name    0x8a5ef9 productsRequest:didReceiveResponse:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[1]  0xb3af7c
+                isa       0x0
+                name      0x9a2d5c SKPaymentTransactionObserver
+                protocols 0x9f14cc
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9f14d8
+                    entsize 12
+                    count   1
+                    name    0x8a5a38 paymentQueue:updatedTransactions:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9f14ec
+                    entsize 12
+                    count   4
+                    name    0x8a5f49 paymentQueue:removedTransactions:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                    name    0x8a5f6b paymentQueue:restoreCompletedTransactionsFailedWithError:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                    name    0x8a5fa5 paymentQueueRestoreCompletedTransactionsFinished:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a5fd7 paymentQueue:updatedDownloads:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[2]  0xb3afa8
+                isa       0x0
+                name      0x9a2d79 UIAlertViewDelegate
+                protocols 0x9f153c
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9f1548
+                    entsize 12
+                    count   7
+                    name    0x88be2f alertView:clickedButtonAtIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x8a5ff6 alertViewCancel:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a6007 willPresentAlertView:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a601d didPresentAlertView:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a6032 alertView:willDismissWithButtonIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x88bdd7 alertView:didDismissWithButtonIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x8a6058 alertViewShouldEnableFirstOtherButton:
+                    types   0x9aceb2 c12@0:4@8
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x9f1908
+            entsize   20
+            count     17
+            offset    0xb04778 4
+            name      0x8a61fd productIds
+            type      0x9af12a @"NSArray"
+            alignment 2
+            size      4
+            offset    0xb047a0 8
+            name      0x8a5ea7 products
+            type      0x9ad075 @"NSMutableDictionary"
+            alignment 2
+            size      4
+            offset    0xb047b4 12
+            name      0x8a6208 productsRequest
+            type      0x9af135 @"SKProductsRequest"
+            alignment 2
+            size      4
+            offset    0xb0477c 16
+            name      0x8a6218 progressTimer
+            type      0x9af14a @"NSTimer"
+            alignment 2
+            size      4
+            offset    0xb047a8 20
+            name      0x8a6185 progress
+            type      0x9ad075 @"NSMutableDictionary"
+            alignment 2
+            size      4
+            offset    0xb04784 24
+            name      0x8a6226 restoreCompleted
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb04788 28
+            name      0x8a6237 restoreAttempts
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb047ac 32
+            name      0x893b70 targetCallback_
+            type      0x9ad48b @
+            alignment 2
+            size      4
+            offset    0xb047b0 36
+            name      0x8901b8 selector_
+            type      0x9ad48d :
+            alignment 2
+            size      4
+            offset    0xb04780 40
+            name      0x8a6247 result_
+            type      0x9ad166 B
+            alignment 0
+            size      1
+            offset    0xb0478c 41
+            name      0x8a624f isInPurchase_
+            type      0x9ad166 B
+            alignment 0
+            size      1
+            offset    0xb047b8 44
+            name      0x8a625d activity_
+            type      0x9af155 @"UIActivityIndicatorView"
+            alignment 2
+            size      4
+            offset    0xb04798 48
+            name      0x8a61a0 transactionInfo
+            type      0x9ad075 @"NSMutableDictionary"
+            alignment 2
+            size      4
+            offset    0xb04790 52
+            name      0x8a61d5 isDisablePurchase
+            type      0x9ad166 B
+            alignment 0
+            size      1
+            offset    0xb04794 53
+            name      0x8a6267 tranLock
+            type      0x9ad166 B
+            alignment 0
+            size      1
+            offset    0xb0479c 56
+            name      0x8a6270 purchaseUserId
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb047a4 60
+            name      0x8a627f _orderId
+            type      0x9ad15a @"NSString"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9f1a68
+            entsize    8
+            count      6
+            name       0x9554ea result
+            attributes 0x92fd7b TB,Vresult_
+            name       0x92fd87 isInPurchase
+            attributes 0x92fd94 TB,N,VisInPurchase_
+            name       0x92fda8 isDisablePurchase
+            attributes 0x92fdba TB,N,VisDisablePurchase
+            name       0x92fdd2 products
+            attributes 0x92fddb T@"NSMutableDictionary",&,N,Vproducts
+            name       0x92fe01 progress
+            attributes 0x92fe0a T@"NSMutableDictionary",&,N,Vprogress
+            name       0x92fe30 transactionInfo
+            attributes 0x92fe40 T@"NSMutableDictionary",&,N,VtransactionInfo
+Meta Class
+        name           0x9a2d1b InAppPurchaseManager
+        baseMethods    0x9f12d8
+            entsize 12
+            count   5
+            name    0x8899a7 sharedInstance
+            types   0x9aca4a @8@0:4
+            imp     0x115969
+            name    0x88b1dd purgeSharedInstance
+            types   0x9aca51 v8@0:4
+            imp     0x115a19
+            name    0x8a59b4 canMakePurchases
+            types   0x9aca58 c8@0:4
+            imp     0x115d95
+            name    0x8a5edb setNeedsRestore:
+            types   0x9ad01c v12@0:4c8
+            imp     0x119259
+            name    0x8a5eec needsRestore
+            types   0x9aca58 c8@0:4
+            imp     0x119269
+        baseProtocols  0x9f15c4
+            count    3
+            list[0]  0xb3af50
+                isa       0x0
+                name      0x9a2d30 SKProductsRequestDelegate
+                protocols 0x9f14a8
+                    count    1
+                    list[0]  0xb3af24
+                        isa       0x0
+                        name      0x9a2d4a SKRequestDelegate
+                        protocols 0x9f1470
+                            count    1
+                            list[0]  0xb38c60
+                                isa       0x0
+                                name      0x9a2331 NSObject
+                                protocols 0x0
+                                instanceMethods 0x9d55f4
+                                    entsize 12
+                                    count   19
+                                    name    0x88bb6b isEqual:
+                                    types   0x9aceb2 c12@0:4@8
+                                    imp     0x0
+                                    name    0x88bb74 hash
+                                    types   0x9acebc I8@0:4
+                                    imp     0x0
+                                    name    0x88bb79 superclass
+                                    types   0x9acec3 #8@0:4
+                                    imp     0x0
+                                    name    0x88aca1 class
+                                    types   0x9acec3 #8@0:4
+                                    imp     0x0
+                                    name    0x88bb84 self
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88bb89 zone
+                                    types   0x9aceca ^{_NSZone=}8@0:4
+                                    imp     0x0
+                                    name    0x88aae3 performSelector:
+                                    types   0x9acedb @12@0:4:8
+                                    imp     0x0
+                                    name    0x88bb8e performSelector:withObject:
+                                    types   0x9acee5 @16@0:4:8@12
+                                    imp     0x0
+                                    name    0x88bbaa performSelector:withObject:withObject:
+                                    types   0x9acef2 @20@0:4:8@12@16
+                                    imp     0x0
+                                    name    0x88bbd1 isProxy
+                                    types   0x9aca58 c8@0:4
+                                    imp     0x0
+                                    name    0x88aca7 isKindOfClass:
+                                    types   0x9acf02 c12@0:4#8
+                                    imp     0x0
+                                    name    0x88bbd9 isMemberOfClass:
+                                    types   0x9acf02 c12@0:4#8
+                                    imp     0x0
+                                    name    0x88bbea conformsToProtocol:
+                                    types   0x9aceb2 c12@0:4@8
+                                    imp     0x0
+                                    name    0x88b60b respondsToSelector:
+                                    types   0x9acf20 c12@0:4:8
+                                    imp     0x0
+                                    name    0x88bbfe retain
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88a420 release
+                                    types   0x9acf2a Vv8@0:4
+                                    imp     0x0
+                                    name    0x88b4dd autorelease
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                    name    0x88bc05 retainCount
+                                    types   0x9acebc I8@0:4
+                                    imp     0x0
+                                    name    0x88b525 description
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                classMethods 0x0
+                                optionalInstanceMethods 0x9d56e0
+                                    entsize 12
+                                    count   1
+                                    name    0x88bc11 debugDescription
+                                    types   0x9aca4a @8@0:4
+                                    imp     0x0
+                                optionalClassMethods 0x0
+                                instanceProperties 0x0
+                        instanceMethods 0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9f147c
+                            entsize 12
+                            count   2
+                            name    0x8a5f1d requestDidFinish:
+                            types   0x9acaff v12@0:4@8
+                            imp     0x0
+                            name    0x8a5f2f request:didFailWithError:
+                            types   0x9aca84 v16@0:4@8@12
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9f14b4
+                    entsize 12
+                    count   1
+                    name    0x8a5ef9 productsRequest:didReceiveResponse:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[1]  0xb3af7c
+                isa       0x0
+                name      0x9a2d5c SKPaymentTransactionObserver
+                protocols 0x9f14cc
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9f14d8
+                    entsize 12
+                    count   1
+                    name    0x8a5a38 paymentQueue:updatedTransactions:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9f14ec
+                    entsize 12
+                    count   4
+                    name    0x8a5f49 paymentQueue:removedTransactions:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                    name    0x8a5f6b paymentQueue:restoreCompletedTransactionsFailedWithError:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                    name    0x8a5fa5 paymentQueueRestoreCompletedTransactionsFinished:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a5fd7 paymentQueue:updatedDownloads:
+                    types   0x9aca84 v16@0:4@8@12
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[2]  0xb3afa8
+                isa       0x0
+                name      0x9a2d79 UIAlertViewDelegate
+                protocols 0x9f153c
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9f1548
+                    entsize 12
+                    count   7
+                    name    0x88be2f alertView:clickedButtonAtIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x8a5ff6 alertViewCancel:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a6007 willPresentAlertView:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a601d didPresentAlertView:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x8a6032 alertView:willDismissWithButtonIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x88bdd7 alertView:didDismissWithButtonIndex:
+                    types   0x9acbe4 v16@0:4@8i12
+                    imp     0x0
+                    name    0x8a6058 alertViewShouldEnableFirstOtherButton:
+                    types   0x9aceb2 c12@0:4@8
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d2f98 0xaf1450
+    isa        0xaf1464
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0x9f1cd8
+        flags          0x10
+        instanceStart  4
+        instanceSize   24
+        ivarLayout     0x0
+        name           0x9a2dbd GreenRiceBallActivityInfoData
+        baseMethods    0x9f1b98
+            entsize 12
+            count   13
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x1198bd
+            name    0x88dbe8 reset
+            types   0x9aca51 v8@0:4
+            imp     0x119935
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x119981
+            name    0x8a63b9 activityFlag
+            types   0x9ad026 L8@0:4
+            imp     0x1199ad
+            name    0x8a63c6 setActivityFlag:
+            types   0x9ad02d v12@0:4L8
+            imp     0x1199bd
+            name    0x8a63d7 activityEndTime
+            types   0x9ad026 L8@0:4
+            imp     0x1199cd
+            name    0x8a63e7 setActivityEndTime:
+            types   0x9ad02d v12@0:4L8
+            imp     0x1199dd
+            name    0x8a63fb currentContributeNum
+            types   0x9ad026 L8@0:4
+            imp     0x1199ed
+            name    0x8a6410 setCurrentContributeNum:
+            types   0x9ad02d v12@0:4L8
+            imp     0x1199fd
+            name    0x8a6429 rewardFlag
+            types   0x9ad026 L8@0:4
+            imp     0x119a0d
+            name    0x8a6434 setRewardFlag:
+            types   0x9ad02d v12@0:4L8
+            imp     0x119a1d
+            name    0x8a6443 currentTeamTotalCount
+            types   0x9ad026 L8@0:4
+            imp     0x119a2d
+            name    0x8a6459 setCurrentTeamTotalCount:
+            types   0x9ad02d v12@0:4L8
+            imp     0x119a3d
+        baseProtocols  0x0
+        ivars          0x9f1c3c
+            entsize   20
+            count     5
+            offset    0xb047bc 4
+            name      0x8a6473 _activityFlag
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb047c0 8
+            name      0x8a6481 _activityEndTime
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb047c4 12
+            name      0x8a6492 _currentContributeNum
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb047c8 16
+            name      0x8a64a8 _rewardFlag
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb047cc 20
+            name      0x8a64b4 _currentTeamTotalCount
+            type      0x9acabf L
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9f1ca8
+            entsize    8
+            count      5
+            name       0x92fe87 activityFlag
+            attributes 0x92fe94 TL,N,V_activityFlag
+            name       0x92fea8 activityEndTime
+            attributes 0x92feb8 TL,N,V_activityEndTime
+            name       0x92fecf currentContributeNum
+            attributes 0x92fee4 TL,N,V_currentContributeNum
+            name       0x92ff00 rewardFlag
+            attributes 0x92ff0b TL,N,V_rewardFlag
+            name       0x92ff1d currentTeamTotalCount
+            attributes 0x92ff33 TL,N,V_currentTeamTotalCount
+Meta Class

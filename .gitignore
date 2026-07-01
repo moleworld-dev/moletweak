@@ -1,0 +1,15 @@
+# Theos build output
+.theos/
+obj/
+*.dylib.unsigned
+*.dylib
+packages/
+
+# macOS
+.DS_Store
+
+# Build mirror / packages (built artifacts are attached to Releases, not committed)
+*.deb
+
+# Extracted app payload (large, not distributable)
+extracted_550/
