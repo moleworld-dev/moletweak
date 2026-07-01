@@ -1,0 +1,149 @@
+        name           0x9a553e NewSceneTestLayer
+        baseMethods    0xa355f4
+            entsize 12
+            count   13
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x32ff59
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x330c19
+            name    0x8c5669 getbuildValueChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x330c75
+            name    0x8a9322 getVipValueChangeValue
+            types   0x9ad015 i8@0:4
+            imp     0x330d01
+            name    0x88ddd6 updateUI
+            types   0x9aca51 v8@0:4
+            imp     0x330d05
+            name    0x8c5651 onButtonbuildValuePlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x330f11
+            name    0x8a91d6 onButtonQuestPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x330f95
+            name    0x8a91e9 onButtonQuestMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x331009
+            name    0x8a9108 onButtonQuestTouched:
+            types   0x9acaff v12@0:4@8
+            imp     0x331079
+            name    0x8a9151 onButtonXPPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x3310bd
+            name    0x8a9186 onButtonVipGoldPlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x33112d
+            name    0x8a919b onButtonVipGoldMinus:
+            types   0x9acaff v12@0:4@8
+            imp     0x331175
+            name    0x8a922c onButtonVipValuePlus:
+            types   0x9acaff v12@0:4@8
+            imp     0x3311c1
+        baseProtocols  0x0
+        ivars          0xa35698
+            entsize   20
+            count     7
+            offset    0xb07840 236
+            name      0x8a935d labelxp
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb07844 240
+            name      0x8c5682 labelbuild
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb07848 244
+            name      0x8a936f labelvipgold
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb0784c 248
+            name      0x8a937c labelquestid
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb07850 252
+            name      0x8a93b4 labelVipValue
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb07838 256
+            name      0x8a93e5 time_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb0783c 260
+            name      0x8a93eb questId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+        name           0x9a553e NewSceneTestLayer
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d383c 0xaf6ab8
+    isa        0xaf6acc
+    superclass 0xaf5258
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0xa35820
+        flags          0x10
+        instanceStart  296
+        instanceSize   301
+        ivarLayout     0x0
+        name           0x9a5550 CommonLoadingLayer
+        baseMethods    0xa3577c
+            entsize 12
+            count   9
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x331299
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x331389
+            name    0x88a2a1 registerWithTouchDispatcher
+            types   0x9aca51 v8@0:4
+            imp     0x3313b5
+            name    0x88a2bd isAccelerometerEnabled
+            types   0x9aca58 c8@0:4
+            imp     0x3313f9
+            name    0x88a2d4 ccTouchBegan:withEvent:
+            types   0x9aca5f c16@0:4@8@12
+            imp     0x33140d
+            name    0x88df83 isShow
+            types   0x9aca58 c8@0:4
+            imp     0x331411
+            name    0x8b56ae showAdTopLayer
+            types   0x9aca51 v8@0:4
+            imp     0x331421
+            name    0x8b56bd setCurrentLoadingProgressPositionIntoRightBottomCorner
+            types   0x9aca51 v8@0:4
+            imp     0x3314d5
+            name    0x8b56f4 hideAndCleanFromParent
+            types   0x9aca51 v8@0:4
+            imp     0x331641
+        baseProtocols  0x0
+        ivars          0xa357f0
+            entsize   20
+            count     2
+            offset    0xb07858 296
+            name      0x8c568d mbProfressHUD_
+            type      0x9b4c16 @"MBProgressHUD"
+            alignment 2
+            size      4
+            offset    0xb07854 300
+            name      0x8c569c isShow_
+            type      0x9acabb c
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class

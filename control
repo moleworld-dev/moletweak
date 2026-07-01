@@ -1,0 +1,10 @@
+Package: com.xiaochoumao.moletweak
+Name: MoleTweak
+Depends: mobilesubstrate
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: 摩尔庄园5.5.0修改器(v21, 对齐 touchHLE molecheats) - 数值/VIP/瞬熟/解锁/成就/海底寻宝/小游戏奖励/召唤/黄金岛
+Maintainer: moleworld-dev
+Author: xiaochoumao
+Section: Tweaks
+Homepage: https://github.com/moleworld-dev/moletweak

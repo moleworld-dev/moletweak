@@ -1,0 +1,87 @@
+        name           0x9a32ee MagicNumberView
+        baseMethods    0x9fe518
+            entsize 12
+            count   11
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x192d59
+            name    0x8abac7 doClose
+            types   0x9aca51 v8@0:4
+            imp     0x193295
+            name    0x889a98 flashScreen
+            types   0x9aca51 v8@0:4
+            imp     0x1932d5
+            name    0x88a1dd callbackflash
+            types   0x9aca51 v8@0:4
+            imp     0x193445
+            name    0x89e1a7 takeScreenshot:
+            types   0x9ad40f v12@0:4f8
+            imp     0x19348d
+            name    0x89e1d0 onImageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:
+            types   0x9ae44f v20@0:4@8@12^v16
+            imp     0x1934f5
+            name    0x8abab2 onButtonYesSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x19350d
+            name    0x8aba9e onButtonNoSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x193571
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x1935b9
+            name    0x8abacf magicNumberDelegate
+            types   0x9aca4a @8@0:4
+            imp     0x193649
+            name    0x8a83cf setMagicNumberDelegate:
+            types   0x9acaff v12@0:4@8
+            imp     0x193659
+        baseProtocols  0x0
+        ivars          0x9fe5a4
+            entsize   20
+            count     1
+            offset    0xb05404 236
+            name      0x8abacf magicNumberDelegate
+            type      0x9afbff @"<MagicNumberDelegate>"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9fe5c0
+            entsize    8
+            count      1
+            name       0x933418 magicNumberDelegate
+            attributes 0x93342c T@"<MagicNumberDelegate>",&,N,VmagicNumberDelegate
+Meta Class
+        name           0x9a32ee MagicNumberView
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d30e4 0xaf2148
+    isa        0xaf215c
+    superclass 0xaf5230
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0x9fe64c
+        flags          0x10
+        instanceStart  235
+        instanceSize   235
+        ivarLayout     0x0
+        name           0x9a32fe BugLevelBase
+        baseMethods    0x9fe620
+            entsize 12
+            count   3
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x193681
+            name    0x8a39ae effectStar:
+            types   0x9acaff v12@0:4@8
+            imp     0x1936b1
+            name    0x8a3a1b showLightStar:
+            types   0x9acab1 v12@0:4i8
+            imp     0x193ae5
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class

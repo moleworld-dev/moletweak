@@ -1,0 +1,100 @@
+        name           0x9a3bd7 WrapperManager
+        baseMethods    0xa0fd70
+            entsize 12
+            count   189
+            name    0x8c89ff getOneKeyFuncState:
+            types   0x9ad05e c12@0:4i8
+            imp     0x38f7a9
+            name    0x88e089 showMole:
+            types   0x9ad01c v12@0:4c8
+            imp     0x38f7bd
+            name    0x8c8a6c showActiveObjects:
+            types   0x9ad01c v12@0:4c8
+            imp     0x38f8fd
+            name    0x8c96fc arrayWithOneKeyWorkType:
+            types   0x9ad117 @12@0:4i8
+            imp     0x38f9f5
+            name    0x8c972f clearTempObjectArray:
+            types   0x9acab1 v12@0:4i8
+            imp     0x38faf9
+            name    0x892cd2 harvestOnekey:
+            types   0x9acaff v12@0:4@8
+            imp     0x38fb99
+            name    0x8c977c accelerateFarmsOnekey:
+            types   0x9acaff v12@0:4@8
+            imp     0x38fc0d
+            name    0x8c9762 accelerateBuildingOnekey:
+            types   0x9acaff v12@0:4@8
+            imp     0x38fc7d
+            name    0x8c97b3 gainOutputOneKey:
+            types   0x9acaff v12@0:4@8
+            imp     0x38fcc5
+            name    0x8c97c5 updateHavestObjectWithType:andCallBack:
+            types   0x9afa06 v16@0:4i8:12
+            imp     0x38fd71
+            name    0x8c97ed updateAccelerateObjectWithType:andCallBack:
+            types   0x9afa06 v16@0:4i8:12
+            imp     0x38feb1
+            name    0x8c994c updateGainOutput:
+            types   0x9ad40f v12@0:4f8
+            imp     0x390005
+            name    0x8c9819 updateHavestCropFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x39012d
+            name    0x8c982f updateHavestFlowerFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x390149
+            name    0x8c9847 updateHavestFruitFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x390165
+            name    0x8c98e1 updateAccelerateCropFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x390181
+            name    0x8c98fb updateAccelerateFlowerFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x39019d
+            name    0x8c9917 updateAccelerateFruitFarm:
+            types   0x9ad40f v12@0:4f8
+            imp     0x3901b9
+            name    0x8c9932 updateAccelerateBuilding:
+            types   0x9ad40f v12@0:4f8
+            imp     0x3901d5
+            name    0x8c8a2e oneKeyHarvestFarms:
+            types   0x9acab1 v12@0:4i8
+            imp     0x3901f1
+            name    0x8c8a56 oneKeyAccelerateWork:
+            types   0x9acab1 v12@0:4i8
+            imp     0x3905e1
+            name    0x8c8568 showMessage:
+            types   0x9acaff v12@0:4@8
+            imp     0x39168d
+            name    0x8c985e onChooseUseVipToAccelerateCrop
+            types   0x9aca51 v8@0:4
+            imp     0x3916d9
+            name    0x8c987d onChooseUseVipToAccelerateFlower
+            types   0x9aca51 v8@0:4
+            imp     0x391819
+            name    0x8c989e onChooseUseVipToAccelerateFruit
+            types   0x9aca51 v8@0:4
+            imp     0x391959
+            name    0x8c98be onChooseUseVipToAccelerateBuilding
+            types   0x9aca51 v8@0:4
+            imp     0x391a99
+            name    0x8a054d onChooseBuyVipGold
+            types   0x9aca51 v8@0:4
+            imp     0x391bb1
+            name    0x8c8a42 oneKeyGainAllOutput
+            types   0x9aca51 v8@0:4
+            imp     0x391be5
+            name    0x8c8a7f oneKeyHarvestShops
+            types   0x9aca51 v8@0:4
+            imp     0x392115
+            name    0x8c997e storeOnekey:
+            types   0x9acaff v12@0:4@8
+            imp     0x392289
+            name    0x8c998b updatePutIntoStorage:
+            types   0x9ad40f v12@0:4f8
+            imp     0x392695
+            name    0x893aa1 oneKeyPutIntoStorage:
+            types   0x9acab1 v12@0:4i8
+            imp     0x3927bd

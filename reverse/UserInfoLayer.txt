@@ -1,0 +1,592 @@
+        name           0x9a2525 UserInfoLayer
+        baseMethods    0x9da2fc
+            entsize 12
+            count   74
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x53a39
+            name    0x8943d2 setBindingAccountButtonNormalSprite
+            types   0x9aca51 v8@0:4
+            imp     0x56821
+            name    0x894389 initBindingAccountButtonNormalSprite
+            types   0x9aca51 v8@0:4
+            imp     0x56889
+            name    0x893ca3 setBackVisible:
+            types   0x9acaff v12@0:4@8
+            imp     0x568f1
+            name    0x894261 showErrorMessage
+            types   0x9aca51 v8@0:4
+            imp     0x56b55
+            name    0x88dd4d showLetterButton:
+            types   0x9ad01c v12@0:4c8
+            imp     0x56c45
+            name    0x88dd5f showFakeLetter:
+            types   0x9ad01c v12@0:4c8
+            imp     0x56c6d
+            name    0x894542 showUserinfo
+            types   0x9aca51 v8@0:4
+            imp     0x56c95
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x56da5
+            name    0x88f8ad updateLayout
+            types   0x9aca51 v8@0:4
+            imp     0x56e49
+            name    0x88f8ba updateFriendsUI:
+            types   0x9ad02d v12@0:4L8
+            imp     0x57459
+            name    0x88ddd6 updateUI
+            types   0x9aca51 v8@0:4
+            imp     0x574fd
+            name    0x88f3aa updateUI4VIP
+            types   0x9aca51 v8@0:4
+            imp     0x575e9
+            name    0x88ddc2 updateXP
+            types   0x9aca51 v8@0:4
+            imp     0x58351
+            name    0x88dda4 updateGold
+            types   0x9aca51 v8@0:4
+            imp     0x5879d
+            name    0x88ddaf updateWorkerNumber
+            types   0x9aca51 v8@0:4
+            imp     0x58d41
+            name    0x88ddcb updateIcon
+            types   0x9aca51 v8@0:4
+            imp     0x58e0d
+            name    0x89454f userInfoPanel:
+            types   0x9acab1 v12@0:4i8
+            imp     0x59101
+            name    0x88dd7c showLetterNewItem:
+            types   0x9ad474 v12@0:4B8
+            imp     0x59141
+            name    0x88dd8f isShowAchieveButton:
+            types   0x9ad474 v12@0:4B8
+            imp     0x5924d
+            name    0x88f390 isShowVIPFunctionsButton:
+            types   0x9ad01c v12@0:4c8
+            imp     0x592a1
+            name    0x894344 showAchievementMedalByAchievementID:
+            types   0x9ad02d v12@0:4L8
+            imp     0x59301
+            name    0x894175 needShowNotice
+            types   0x9aca58 c8@0:4
+            imp     0x59909
+            name    0x894199 checkActivityStatus
+            types   0x9aca51 v8@0:4
+            imp     0x59945
+            name    0x894532 checkVoteStatus
+            types   0x9aca51 v8@0:4
+            imp     0x59a29
+            name    0x894493 showActionCenterLayer
+            types   0x9aca51 v8@0:4
+            imp     0x59b0d
+            name    0x88de51 checkExistInFriendsList:
+            types   0x9ad3f4 B12@0:4L8
+            imp     0x59b9d
+            name    0x893dc6 onButtonAchieveSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x59c91
+            name    0x893ddf onButtonExchangeLayerSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x59e55
+            name    0x89407f getLocalXiaoquNumber
+            types   0x9ad015 i8@0:4
+            imp     0x59fa5
+            name    0x894094 resetLocalXiaoquNumber
+            types   0x9aca51 v8@0:4
+            imp     0x59ff5
+            name    0x8940f0 getLocalSpecialObjectNumberWithId:
+            types   0x9ad0a6 i12@0:4i8
+            imp     0x5a045
+            name    0x89455e resetLocalSpecialObjectNumberWithId:
+            types   0x9acab1 v12@0:4i8
+            imp     0x5a095
+            name    0x894583 reduceLocalSpecialObjectNumberWithId:num:
+            types   0x9ad099 v16@0:4i8i12
+            imp     0x5a0e9
+            name    0x893dfe onButtonVipFunctionsSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5a125
+            name    0x891cb8 onButtonActionFunctionsSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5a2f1
+            name    0x8945ad onReturnToActionCenterPage
+            types   0x9aca51 v8@0:4
+            imp     0x5a6f5
+            name    0x8945c8 getCaribbeanActivityInfo
+            types   0x9aca51 v8@0:4
+            imp     0x5a95d
+            name    0x8945e1 getPopularItemsPKInfo
+            types   0x9aca51 v8@0:4
+            imp     0x5a9cd
+            name    0x893e1c onButtonCustomServiceFunctionsSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5aa01
+            name    0x893e44 onButtonBindingAccountSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5ac79
+            name    0x893e99 onButtonHideTestLayerSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5ae09
+            name    0x893fc1 onMedalSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5ae0d
+            name    0x893c3c onButtonAvatarSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5af11
+            name    0x893ee6 showLikeNumAndIcon:
+            types   0x9ad3f4 B12@0:4L8
+            imp     0x5b0c1
+            name    0x893ed3 showAddFriendIcon:
+            types   0x9ad3f4 B12@0:4L8
+            imp     0x5b369
+            name    0x893efa showVoteAndIcon:
+            types   0x9ad3f4 B12@0:4L8
+            imp     0x5b581
+            name    0x893dad onButtonLettersSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5b891
+            name    0x893cb3 onButtonAddSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5bb59
+            name    0x893cc8 onButtonLikesSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5bd09
+            name    0x893d97 onButtonVoteSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0x5c101
+            name    0x8945f7 resetValues
+            types   0x9aca51 v8@0:4
+            imp     0x5c22d
+            name    0x894369 removeMedal
+            types   0x9aca51 v8@0:4
+            imp     0x5c265
+            name    0x893fd2 hideAchievementMedal
+            types   0x9aca51 v8@0:4
+            imp     0x5c391
+            name    0x89423f onAvatarChanged
+            types   0x9aca51 v8@0:4
+            imp     0x5c4f5
+            name    0x88f475 addStarshineForActivityCenterButton
+            types   0x9aca51 v8@0:4
+            imp     0x5c4f9
+            name    0x88dfe3 resetStarPointer
+            types   0x9aca51 v8@0:4
+            imp     0x5c5f1
+            name    0x8943ae addStarshineForAccountBindingButton
+            types   0x9aca51 v8@0:4
+            imp     0x5c639
+            name    0x88f616 showAccountBindingButton:
+            types   0x9ad01c v12@0:4c8
+            imp     0x5c731
+            name    0x894375 resetStarFABPointer
+            types   0x9aca51 v8@0:4
+            imp     0x5c821
+            name    0x88f8f4 displayAccountBindingLayer
+            types   0x9aca51 v8@0:4
+            imp     0x5c869
+            name    0x8944a9 requestEmailStatus
+            types   0x9aca51 v8@0:4
+            imp     0x5c99d
+            name    0x893f20 resetEmailAddress
+            types   0x9aca51 v8@0:4
+            imp     0x5ca0d
+            name    0x8943f6 onGetAccountStatusTimeOut
+            types   0x9aca51 v8@0:4
+            imp     0x5ca3d
+            name    0x894003 onGetActivityStatusTimeOut
+            types   0x9aca51 v8@0:4
+            imp     0x5caa5
+            name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+            types   0x9ad3a4 v20@0:4L8@12i16
+            imp     0x5cc09
+            name    0x88fca5 onTaomeeSetPasswordFinishedWithReturnCode:
+            types   0x9acab1 v12@0:4i8
+            imp     0x5cc0d
+            name    0x88fcd0 OnTaomeeBindEmailFinishedForUserId:emailAddress:returnCode:
+            types   0x9ad3a4 v20@0:4L8@12i16
+            imp     0x5cc61
+            name    0x894603 callbackActionCenterDailySign
+            types   0x9aca51 v8@0:4
+            imp     0x5cda5
+            name    0x894621 voteByFree
+            types   0x9aca51 v8@0:4
+            imp     0x5cdf1
+            name    0x89462c voteByVipGold
+            types   0x9aca51 v8@0:4
+            imp     0x5cf15
+            name    0x88fbfb onCommandReceived:
+            types   0x9acaff v12@0:4@8
+            imp     0x5d039
+            name    0x89463a infoMode
+            types   0x9ad015 i8@0:4
+            imp     0x5d1f1
+            name    0x88f8a0 setInfoMode:
+            types   0x9acab1 v12@0:4i8
+            imp     0x5d201
+        baseProtocols  0x9da2c8
+            count    1
+            list[0]  0xb38e1c
+                isa       0x0
+                name      0x9a2480 TMALoginViewControllerDelegate
+                protocols 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9d729c
+                    entsize 12
+                    count   4
+                    name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fc74 onTaomeeAutoLoginWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fca5 onTaomeeSetPasswordFinishedWithReturnCode:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fcd0 OnTaomeeBindEmailFinishedForUserId:emailAddress:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x9da67c
+            entsize   20
+            count     48
+            offset    0xb03468 236
+            name      0x894643 workerInfo_
+            type      0x9ad959 @"CCLabelAtlas"
+            alignment 2
+            size      4
+            offset    0xb03474 240
+            name      0x89464f goldnumber_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb03478 244
+            name      0x89465b vipgoldnumber_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb0347c 248
+            name      0x89466a level_
+            type      0x9ad959 @"CCLabelAtlas"
+            alignment 2
+            size      4
+            offset    0xb03480 252
+            name      0x894671 leftpercent_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb03484 256
+            name      0x89467e name_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb0348c 260
+            name      0x894684 progressbar_
+            type      0x9ad977 @"CCProgressTimer"
+            alignment 2
+            size      4
+            offset    0xb03450 264
+            name      0x894691 avatarIcon_
+            type      0x9ad98a @"CCMenuItemSprite"
+            alignment 2
+            size      4
+            offset    0xb0344c 268
+            name      0x89469d backBottom_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb03488 272
+            name      0x8946a9 progressbarback_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb03490 276
+            name      0x8946ba goldimage_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb03494 280
+            name      0x8946c5 vipgoldimage_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb03460 284
+            name      0x8946d3 addIcon_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034ec 288
+            name      0x8946dc userId_
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb03444 292
+            name      0x8946e4 infoMode_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb03498 296
+            name      0x8946ee moleIDLabel_
+            type      0x9ad969 @"CCLabelTTF"
+            alignment 2
+            size      4
+            offset    0xb03458 300
+            name      0x8946fb buttonuserinfo
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034ac 304
+            name      0x89470a buttonletter
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034b8 308
+            name      0x894717 vipFunctionsButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034b4 312
+            name      0x89472b exchangeLayerButton
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034bc 316
+            name      0x89473f actionFunctionsButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034c0 320
+            name      0x894756 costomFunctionsButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034c4 324
+            name      0x89476d bindingAccountButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034c8 328
+            name      0x894783 addTestSprite_
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb034cc 332
+            name      0x894792 addTestLayerButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034a8 336
+            name      0x8947a6 fakehideletterSprite
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb034a0 340
+            name      0x8947bb userinfo_X_
+            type      0x9acac3 f
+            alignment 2
+            size      4
+            offset    0xb034a4 344
+            name      0x8947c7 userinfo_Y_
+            type      0x9acac3 f
+            alignment 2
+            size      4
+            offset    0xb03448 348
+            name      0x8947d3 back
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb03454 352
+            name      0x8947d8 avatarButton
+            type      0x9ad98a @"CCMenuItemSprite"
+            alignment 2
+            size      4
+            offset    0xb0345c 356
+            name      0x8947e5 angleButton
+            type      0x9ad98a @"CCMenuItemSprite"
+            alignment 2
+            size      4
+            offset    0xb03470 360
+            name      0x8947f1 likesLabel_
+            type      0x9ad959 @"CCLabelAtlas"
+            alignment 2
+            size      4
+            offset    0xb03464 364
+            name      0x8947fd likesButton_
+            type      0x9ad98a @"CCMenuItemSprite"
+            alignment 2
+            size      4
+            offset    0xb034f4 368
+            name      0x89480a likeId_
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb0346c 372
+            name      0x894812 userInfoWords
+            type      0x9acaf3 @"CCSprite"
+            alignment 2
+            size      4
+            offset    0xb034f0 376
+            name      0x894820 newitemSprite
+            type      0x9ad6ab @"MovableSprite"
+            alignment 2
+            size      4
+            offset    0xb034d0 380
+            name      0x89482e achieveMenu
+            type      0x9ad94f @"CCMenu"
+            alignment 2
+            size      4
+            offset    0xb034d4 384
+            name      0x89483a isMedalShow
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb034dc 388
+            name      0x894846 medalMenu
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034d8 392
+            name      0x894850 selectedAchievementID
+            type      0x9acabf L
+            alignment 2
+            size      4
+            offset    0xb034e0 396
+            name      0x894866 isInitVip_
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb034b0 400
+            name      0x894871 achieveMenuItem
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034fc 404
+            name      0x89124c _star
+            type      0x9ad6ab @"MovableSprite"
+            alignment 2
+            size      4
+            offset    0xb03500 408
+            name      0x894881 _starFAB
+            type      0x9ad6ab @"MovableSprite"
+            alignment 2
+            size      4
+            offset    0xb034e4 412
+            name      0x89488a _hasSetPassword
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb034e8 416
+            name      0x89489a _boundEmailAddress
+            type      0x9ad15a @"NSString"
+            alignment 2
+            size      4
+            offset    0xb0349c 420
+            name      0x8948ad voteButton_
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb034f8 424
+            name      0x8948b9 voteId_
+            type      0x9acabf L
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9daa48
+            entsize    8
+            count      1
+            name       0x925672 infoMode
+            attributes 0x92567b Ti,N,VinfoMode_
+Meta Class
+        name           0x9a2525 UserInfoLayer
+        baseMethods    0x0
+        baseProtocols  0x9da2c8
+            count    1
+            list[0]  0xb38e1c
+                isa       0x0
+                name      0x9a2480 TMALoginViewControllerDelegate
+                protocols 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9d729c
+                    entsize 12
+                    count   4
+                    name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fc74 onTaomeeAutoLoginWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fca5 onTaomeeSetPasswordFinishedWithReturnCode:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fcd0 OnTaomeeBindEmailFinishedForUserId:emailAddress:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d2db0 0xaf0140
+    isa        0xaf0154
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0x9dab58
+        flags          0x10
+        instanceStart  4
+        instanceSize   12
+        ivarLayout     0x0
+        name           0x9a2533 TreasureRabbitData
+        baseMethods    0x9daaa8
+            entsize 12
+            count   8
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0x5d211
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0x5d285
+            name    0x8948c1 showRabbit:
+            types   0x9ad05e c12@0:4i8
+            imp     0x5d2e5
+            name    0x88fb52 getReward
+            types   0x9ad026 L8@0:4
+            imp     0x5d32d
+            name    0x88fb40 treasureAvailable
+            types   0x9aca58 c8@0:4
+            imp     0x5d411
+            name    0x8948cd setTreasureAvailable:
+            types   0x9ad01c v12@0:4c8
+            imp     0x5d421
+            name    0x8948e3 eggsAvailableArray
+            types   0x9aca4a @8@0:4
+            imp     0x5d431
+            name    0x8948f6 setEggsAvailableArray:
+            types   0x9acaff v12@0:4@8
+            imp     0x5d441
+        baseProtocols  0x0
+        ivars          0x9dab10
+            entsize   20
+            count     2
+            offset    0xb03504 4
+            name      0x89490d treasureAvailable_
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb03508 8
+            name      0x894920 eggsAvailableArray_
+            type      0x9ad037 @"NSMutableArray"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9dab40
+            entsize    8
+            count      2
+            name       0x92568b treasureAvailable
+            attributes 0x92569d Tc,N,VtreasureAvailable_
+            name       0x9256b6 eggsAvailableArray
+            attributes 0x9256c9 T@"NSMutableArray",&,N,VeggsAvailableArray_
+Meta Class

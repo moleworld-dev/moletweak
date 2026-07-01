@@ -1,0 +1,805 @@
+        name           0x9a28c8 MainMenuScene
+        baseMethods    0x9e6d20
+            entsize 12
+            count   57
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0xb2dc1
+            name    0x89e8a9 moreGameMenuPositionWithRadius:
+            types   0x9ae50c {CGPoint=ff}12@0:4f8
+            imp     0xb38fd
+            name    0x89e907 helpMenuPositionWithRadius:
+            types   0x9ae50c {CGPoint=ff}12@0:4f8
+            imp     0xb39ed
+            name    0x89e8c9 changeIDMenuPositionWithRadius:
+            types   0x9ae50c {CGPoint=ff}12@0:4f8
+            imp     0xb3ae1
+            name    0x89e8e9 optionMenuPositionWithRadius:
+            types   0x9ae50c {CGPoint=ff}12@0:4f8
+            imp     0xb3c11
+            name    0x89e923 hiddenMenuPosition
+            types   0x9aca91 {CGPoint=ff}8@0:4
+            imp     0xb3d41
+            name    0x89e936 popoutMenuPosition
+            types   0x9aca91 {CGPoint=ff}8@0:4
+            imp     0xb3ded
+            name    0x89e987 playBGM:
+            types   0x9ad40f v12@0:4f8
+            imp     0xb3ebd
+            name    0x89ee34 showStarIcon:
+            types   0x9ad474 v12@0:4B8
+            imp     0xb3f61
+            name    0x889af2 onEnter
+            types   0x9aca51 v8@0:4
+            imp     0xb3f65
+            name    0x889b56 onExit
+            types   0x9aca51 v8@0:4
+            imp     0xb403d
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0xb4189
+            name    0x89ee42 addButterFly
+            types   0x9aca51 v8@0:4
+            imp     0xb41e5
+            name    0x89ee4f addSnowLayer
+            types   0x9aca51 v8@0:4
+            imp     0xb4255
+            name    0x89ee5c addFireFly
+            types   0x9aca51 v8@0:4
+            imp     0xb42cd
+            name    0x890adb addBubble
+            types   0x9aca51 v8@0:4
+            imp     0xb4341
+            name    0x89e9ab addAdvertismentUIView
+            types   0x9aca51 v8@0:4
+            imp     0xb4481
+            name    0x89e9c1 removeAdvertisementUIView
+            types   0x9aca51 v8@0:4
+            imp     0xb4791
+            name    0x89ee67 showNoticeMessage:
+            types   0x9acaff v12@0:4@8
+            imp     0xb485d
+            name    0x89e888 showButtons:
+            types   0x9ad01c v12@0:4c8
+            imp     0xb496d
+            name    0x89e895 setPopButtonStatus:
+            types   0x9ad01c v12@0:4c8
+            imp     0xb49d9
+            name    0x88be2f alertView:clickedButtonAtIndex:
+            types   0x9acbe4 v16@0:4@8i12
+            imp     0xb4a71
+            name    0x89ee7a matchStarted
+            types   0x9aca51 v8@0:4
+            imp     0xb4a89
+            name    0x89ee87 inviteReceived
+            types   0x9aca51 v8@0:4
+            imp     0xb4a8d
+            name    0x89ee96 matchEnded
+            types   0x9aca51 v8@0:4
+            imp     0xb4a91
+            name    0x89ea83 OnLoginOk
+            types   0x9aca51 v8@0:4
+            imp     0xb4a95
+            name    0x89eb56 onButtonPlaySelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb4ce1
+            name    0x89e7f5 onButtonOptionSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb4d1d
+            name    0x89e80d onButtonHelpSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb4ed5
+            name    0x89e823 onButtonGetMoreGamesSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb5081
+            name    0x89eea1 onTaomeeMoreViewClosed
+            types   0x9aca51 v8@0:4
+            imp     0xb5131
+            name    0x89eeb8 onApplicationDidBecomeActive
+            types   0x9aca51 v8@0:4
+            imp     0xb51e5
+            name    0x89e841 onButtonChangeIDSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb523d
+            name    0x89e85b onButtonPopOutMenuSelected:
+            types   0x9acaff v12@0:4@8
+            imp     0xb5741
+            name    0x89eb02 readyToHideButtons
+            types   0x9aca51 v8@0:4
+            imp     0xb58a5
+            name    0x89eaed alreadyShowedButtons
+            types   0x9aca51 v8@0:4
+            imp     0xb592d
+            name    0x89eabd showButtonsStepByStep:
+            types   0x9ad40f v12@0:4f8
+            imp     0xb59a1
+            name    0x89eaa6 hideButtonsStepByStep:
+            types   0x9ad40f v12@0:4f8
+            imp     0xb5de5
+            name    0x89ec3c onDataReceived
+            types   0x9aca51 v8@0:4
+            imp     0xb5fa1
+            name    0x89eed5 addSetPasswordView
+            types   0x9aca51 v8@0:4
+            imp     0xb5fa5
+            name    0x89ea98 showLoginView
+            types   0x9aca51 v8@0:4
+            imp     0xb6141
+            name    0x88f031 showDifferentGameDataComparingView
+            types   0x9aca51 v8@0:4
+            imp     0xb6329
+            name    0x88ecc1 choosenLocalGameDataCoverRemoteOne
+            types   0x9aca51 v8@0:4
+            imp     0xb63d9
+            name    0x88ece4 choosenRemoteGameDataCoverLocalOne
+            types   0x9aca51 v8@0:4
+            imp     0xb655d
+            name    0x89ec4b onLoginMainMenuCommandChangedTo:
+            types   0x9acab1 v12@0:4i8
+            imp     0xb6841
+            name    0x89ec6c onLoginMainMenuCommandReceived:
+            types   0x9acaff v12@0:4@8
+            imp     0xb6959
+            name    0x88bdd7 alertView:didDismissWithButtonIndex:
+            types   0x9acbe4 v16@0:4@8i12
+            imp     0xb7db1
+            name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+            types   0x9ad3a4 v20@0:4L8@12i16
+            imp     0xb7e79
+            name    0x89eba4 onRegisterFinished
+            types   0x9aca51 v8@0:4
+            imp     0xb82d9
+            name    0x88fc0e onDifferentGameDataCompareChoosenResponder:
+            types   0x9acab1 v12@0:4i8
+            imp     0xb85ad
+            name    0x89ec8c atomApplicationKey
+            types   0x9aca4a @8@0:4
+            imp     0xb8625
+            name    0x89ec9f viewControllerForPresentingModalView
+            types   0x9aca4a @8@0:4
+            imp     0xb8631
+            name    0x89ee18 atomSizeLevel
+            types   0x9ad015 i8@0:4
+            imp     0xb8675
+            name    0x88a2a1 registerWithTouchDispatcher
+            types   0x9aca51 v8@0:4
+            imp     0xb86e1
+            name    0x88a2d4 ccTouchBegan:withEvent:
+            types   0x9aca5f c16@0:4@8@12
+            imp     0xb8721
+            name    0x89eee8 isOptionLayerShow
+            types   0x9aca58 c8@0:4
+            imp     0xb8779
+            name    0x89eefa setIsOptionLayerShow:
+            types   0x9ad01c v12@0:4c8
+            imp     0xb8789
+        baseProtocols  0x9e6cd8
+            count    6
+            list[0]  0xb3ad5c
+                isa       0x0
+                name      0x9a28d6 AdvertisementsResponder
+                protocols 0x0
+                instanceMethods 0x9e6984
+                    entsize 12
+                    count   1
+                    name    0x89ec3c onDataReceived
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[1]  0xb3ad88
+                isa       0x0
+                name      0x9a28ee MainMenuResponder
+                protocols 0x0
+                instanceMethods 0x9e699c
+                    entsize 12
+                    count   2
+                    name    0x89ec4b onLoginMainMenuCommandChangedTo:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x89ec6c onLoginMainMenuCommandReceived:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[2]  0xb38e1c
+                isa       0x0
+                name      0x9a2480 TMALoginViewControllerDelegate
+                protocols 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9d729c
+                    entsize 12
+                    count   4
+                    name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fc74 onTaomeeAutoLoginWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fca5 onTaomeeSetPasswordFinishedWithReturnCode:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fcd0 OnTaomeeBindEmailFinishedForUserId:emailAddress:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[3]  0xb3adb4
+                isa       0x0
+                name      0x9a2900 RegisterDelegate
+                protocols 0x0
+                instanceMethods 0x9e6a10
+                    entsize 12
+                    count   1
+                    name    0x89eba4 onRegisterFinished
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[4]  0xb38df0
+                isa       0x0
+                name      0x9a2467 GameDataCompareResponder
+                protocols 0x0
+                instanceMethods 0x9d7280
+                    entsize 12
+                    count   1
+                    name    0x88fc0e onDifferentGameDataCompareChoosenResponder:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[5]  0xb3ade0
+                isa       0x0
+                name      0x9a2911 AtomDelegate
+                protocols 0x9e6b98
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9e6ba4
+                    entsize 12
+                    count   2
+                    name    0x89ec8c atomApplicationKey
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ec9f viewControllerForPresentingModalView
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9e6bc4
+                    entsize 12
+                    count   16
+                    name    0x89ecc4 atomConfigURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ecd2 atomImpMetricURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ece3 atomClickMetricURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ecf6 atomCustomAdURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ed06 atomDidReceiveAd:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed18 atomDidFailToReceiveAd:usingBackup:
+                    types   0x9ad429 v16@0:4@8c12
+                    imp     0x0
+                    name    0x89ed3c atomDidAnimateToNewAdIn:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed55 atomReceivedRequestForDeveloperToFufill:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed7e atomReceivedNotificationAdsAreOff:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89eda1 atomWillPresentFullScreenModal
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                    name    0x89edc0 atomDidDismissFullScreenModal
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                    name    0x89edde atomDidReceiveConfig:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89edf4 atomTestMode
+                    types   0x9aca58 c8@0:4
+                    imp     0x0
+                    name    0x89ee01 atomCurrentOrientation
+                    types   0x9ad015 i8@0:4
+                    imp     0x0
+                    name    0x89ee18 atomSizeLevel
+                    types   0x9ad015 i8@0:4
+                    imp     0x0
+                    name    0x89ee26 atomAlignMode
+                    types   0x9acebc I8@0:4
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x9e6fd4
+            entsize   20
+            count     13
+            offset    0xb03fa0 235
+            name      0x89ef10 isEnable
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb03fa4 236
+            name      0x89ef19 isReeter
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb03fb4 240
+            name      0x89ef22 snowLayer_
+            type      0x9ad47e @"CCLayer"
+            alignment 2
+            size      4
+            offset    0xb03f9c 244
+            name      0x89ef2d menu
+            type      0x9ad94f @"CCMenu"
+            alignment 2
+            size      4
+            offset    0xb03f94 248
+            name      0x89ef32 buttonchangeId
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb03f8c 252
+            name      0x89ef41 buttonhelp
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb03f88 256
+            name      0x89ef4c buttonoption
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb03f90 260
+            name      0x89ef59 buttonmoregame
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb03f98 264
+            name      0x89ef68 buttonParentButton
+            type      0x9ad68c @"CCMenuItemSpriteIndependent"
+            alignment 2
+            size      4
+            offset    0xb03fac 268
+            name      0x89ef7b isClickingMenu
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb03fb0 272
+            name      0x89ef8a curButtonId
+            type      0x9ad388 I
+            alignment 2
+            size      4
+            offset    0xb03fa8 276
+            name      0x89ef96 isOptionLayerShow_
+            type      0x9acabb c
+            alignment 0
+            size      1
+            offset    0xb03fb8 280
+            name      0x89efa9 bubbleLayer
+            type      0x9ae521 @"ParticalManager"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9e70e0
+            entsize    8
+            count      1
+            name       0x92c414 isOptionLayerShow
+            attributes 0x92c426 Tc,N,VisOptionLayerShow_
+Meta Class
+        name           0x9a28c8 MainMenuScene
+        baseMethods    0x9e6970
+            entsize 12
+            count   1
+            name    0x88b3a9 scene
+            types   0x9aca4a @8@0:4
+            imp     0xb2d71
+        baseProtocols  0x9e6cd8
+            count    6
+            list[0]  0xb3ad5c
+                isa       0x0
+                name      0x9a28d6 AdvertisementsResponder
+                protocols 0x0
+                instanceMethods 0x9e6984
+                    entsize 12
+                    count   1
+                    name    0x89ec3c onDataReceived
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[1]  0xb3ad88
+                isa       0x0
+                name      0x9a28ee MainMenuResponder
+                protocols 0x0
+                instanceMethods 0x9e699c
+                    entsize 12
+                    count   2
+                    name    0x89ec4b onLoginMainMenuCommandChangedTo:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x89ec6c onLoginMainMenuCommandReceived:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[2]  0xb38e1c
+                isa       0x0
+                name      0x9a2480 TMALoginViewControllerDelegate
+                protocols 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9d729c
+                    entsize 12
+                    count   4
+                    name    0x88fc3a onTaomeeLoginViewDidUnloadWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fc74 onTaomeeAutoLoginWithUserID:password:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                    name    0x88fca5 onTaomeeSetPasswordFinishedWithReturnCode:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                    name    0x88fcd0 OnTaomeeBindEmailFinishedForUserId:emailAddress:returnCode:
+                    types   0x9ad3a4 v20@0:4L8@12i16
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[3]  0xb3adb4
+                isa       0x0
+                name      0x9a2900 RegisterDelegate
+                protocols 0x0
+                instanceMethods 0x9e6a10
+                    entsize 12
+                    count   1
+                    name    0x89eba4 onRegisterFinished
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[4]  0xb38df0
+                isa       0x0
+                name      0x9a2467 GameDataCompareResponder
+                protocols 0x0
+                instanceMethods 0x9d7280
+                    entsize 12
+                    count   1
+                    name    0x88fc0e onDifferentGameDataCompareChoosenResponder:
+                    types   0x9acab1 v12@0:4i8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+            list[5]  0xb3ade0
+                isa       0x0
+                name      0x9a2911 AtomDelegate
+                protocols 0x9e6b98
+                    count    1
+                    list[0]  0xb38c60
+                        isa       0x0
+                        name      0x9a2331 NSObject
+                        protocols 0x0
+                        instanceMethods 0x9d55f4
+                            entsize 12
+                            count   19
+                            name    0x88bb6b isEqual:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88bb74 hash
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88bb79 superclass
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88aca1 class
+                            types   0x9acec3 #8@0:4
+                            imp     0x0
+                            name    0x88bb84 self
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bb89 zone
+                            types   0x9aceca ^{_NSZone=}8@0:4
+                            imp     0x0
+                            name    0x88aae3 performSelector:
+                            types   0x9acedb @12@0:4:8
+                            imp     0x0
+                            name    0x88bb8e performSelector:withObject:
+                            types   0x9acee5 @16@0:4:8@12
+                            imp     0x0
+                            name    0x88bbaa performSelector:withObject:withObject:
+                            types   0x9acef2 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x88bbd1 isProxy
+                            types   0x9aca58 c8@0:4
+                            imp     0x0
+                            name    0x88aca7 isKindOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbd9 isMemberOfClass:
+                            types   0x9acf02 c12@0:4#8
+                            imp     0x0
+                            name    0x88bbea conformsToProtocol:
+                            types   0x9aceb2 c12@0:4@8
+                            imp     0x0
+                            name    0x88b60b respondsToSelector:
+                            types   0x9acf20 c12@0:4:8
+                            imp     0x0
+                            name    0x88bbfe retain
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88a420 release
+                            types   0x9acf2a Vv8@0:4
+                            imp     0x0
+                            name    0x88b4dd autorelease
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                            name    0x88bc05 retainCount
+                            types   0x9acebc I8@0:4
+                            imp     0x0
+                            name    0x88b525 description
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x9d56e0
+                            entsize 12
+                            count   1
+                            name    0x88bc11 debugDescription
+                            types   0x9aca4a @8@0:4
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x9e6ba4
+                    entsize 12
+                    count   2
+                    name    0x89ec8c atomApplicationKey
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ec9f viewControllerForPresentingModalView
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x9e6bc4
+                    entsize 12
+                    count   16
+                    name    0x89ecc4 atomConfigURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ecd2 atomImpMetricURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ece3 atomClickMetricURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ecf6 atomCustomAdURL
+                    types   0x9aca4a @8@0:4
+                    imp     0x0
+                    name    0x89ed06 atomDidReceiveAd:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed18 atomDidFailToReceiveAd:usingBackup:
+                    types   0x9ad429 v16@0:4@8c12
+                    imp     0x0
+                    name    0x89ed3c atomDidAnimateToNewAdIn:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed55 atomReceivedRequestForDeveloperToFufill:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89ed7e atomReceivedNotificationAdsAreOff:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89eda1 atomWillPresentFullScreenModal
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                    name    0x89edc0 atomDidDismissFullScreenModal
+                    types   0x9aca51 v8@0:4
+                    imp     0x0
+                    name    0x89edde atomDidReceiveConfig:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x89edf4 atomTestMode
+                    types   0x9aca58 c8@0:4
+                    imp     0x0
+                    name    0x89ee01 atomCurrentOrientation
+                    types   0x9ad015 i8@0:4
+                    imp     0x0
+                    name    0x89ee18 atomSizeLevel
+                    types   0x9ad015 i8@0:4
+                    imp     0x0
+                    name    0x89ee26 atomAlignMode
+                    types   0x9acebc I8@0:4
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+009d2e98 0xaf0a50
+    isa        0xaf0a64
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0 __objc_empty_vtable
+    data       0x9e7268
+        flags          0x10
+        instanceStart  4
+        instanceSize   16
+        ivarLayout     0x0
+        name           0x9a291e GiftData
+        baseMethods    0x9e7174
+            entsize 12
+            count   11
+            name    0x88a29c init
+            types   0x9aca4a @8@0:4
+            imp     0xb8799
+            name    0x889b74 dealloc
+            types   0x9aca51 v8@0:4
+            imp     0xb881d
+            name    0x895d90 initWithCoder:
+            types   0x9acfe9 @12@0:4@8
+            imp     0xb8869
+            name    0x895d7f encodeWithCoder:
+            types   0x9acaff v12@0:4@8
+            imp     0xb8955
+            name    0x88ebbf setName:
+            types   0x9acaff v12@0:4@8
+            imp     0xb89e9
+            name    0x89efd4 friendName
+            types   0x9aca4a @8@0:4
+            imp     0xb8a49
+            name    0x89efdf setFriendName:
+            types   0x9acaff v12@0:4@8
+            imp     0xb8a59
+            name    0x89efb5 friendId
+            types   0x9ad015 i8@0:4
+            imp     0xb8a7d
+            name    0x89efee setFriendId:
+            types   0x9acab1 v12@0:4i8
+            imp     0xb8a8d
+            name    0x893844 giftId
+            types   0x9ad015 i8@0:4
+            imp     0xb8a9d
+            name    0x89effb setGiftId:
+            types   0x9acab1 v12@0:4i8
+            imp     0xb8aad
+        baseProtocols  0x9e7140
+            count    1
+            list[0]  0xb3ac90
+                isa       0x0
+                name      0x9a268b NSCoding
+                protocols 0x0
+                instanceMethods 0x9dcb58
+                    entsize 12
+                    count   2
+                    name    0x895d7f encodeWithCoder:
+                    types   0x9acaff v12@0:4@8
+                    imp     0x0
+                    name    0x895d90 initWithCoder:
+                    types   0x9acfe9 @12@0:4@8
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x9e7200
+            entsize   20
+            count     3
+            offset    0xb03fbc 4
+            name      0x89f006 friendName_
+            type      0x9ad15a @"NSString"
+            alignment 2
+            size      4
+            offset    0xb03fc0 8
+            name      0x89f012 friendId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+            offset    0xb03fc4 12
+            name      0x89f01c giftId_
+            type      0x9acac1 i
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x9e7248
+            entsize    8
+            count      3
+            name       0x92c43f friendName
+            attributes 0x92c461 T@"NSString",&,N,VfriendName_
+            name       0x92c451 friendId
+            attributes 0x92c47f Ti,N,VfriendId_
+            name       0x92c45a giftId
+            attributes 0x92c48f Ti,N,VgiftId_
+Meta Class
